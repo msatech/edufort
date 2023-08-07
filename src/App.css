@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@300&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+  }
+
+:root{
+    --primaryfont: 'Open Sans';
+    --primary: #090e14;
+    /* --secondary: rgba(9, 14, 20, 0.8); */
+    --secondary: #3c4852;
+    --bordercolor: #ebecf0;
+    --lightgray: #ebecf0;
+    --lineheight: 19px;
+    --green: #00C285;
+    --lightblue:#F0F9FF;
+}
+
+body{
+  overflow-x: hidden;
+}

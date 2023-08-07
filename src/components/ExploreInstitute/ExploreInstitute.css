@@ -1,0 +1,9 @@
+.exploreinstitute{
+    margin-bottom: 40px;
+}
+
+.explore__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

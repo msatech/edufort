@@ -1,0 +1,49 @@
+.whyedu .whyedu__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.whyedu .whyedu__container__card {
+    padding: 30px;
+    border: 1px solid var(--lightgray);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.whyedu__container__card{
+    display: flex;
+  
+    flex-direction: column;
+}
+
+.whyedu__container__card img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+.whyedu__container__card__info .whyedu__container__card__info__title{
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--primary);
+    margin-bottom: 4px;
+
+}
+
+.whyedu__container__card__info .whyedu__container__card__info__desc{
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: var(--secondary);
+
+}
+

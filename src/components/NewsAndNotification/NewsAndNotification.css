@@ -1,0 +1,94 @@
+.newsandnotification {
+    width: 100%;
+    padding: 22px 5px 22px 30px;
+    border: 1px solid var(--bordercolor);
+    border-radius: 8px;
+    height: calc(100vh - 350px);
+
+}
+
+.newsandnotification .news__items{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+/* .newsandnotification .news__items::-webkit-scrollbar {
+    display: none;
+} */
+
+
+.newsandnotification .news__items::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.newsandnotification .news__items::-webkit-scrollbar-track-piece  {
+    background-color: transparent;
+}
+
+.newsandnotification .news__items::-webkit-scrollbar-thumb:vertical {
+    border-radius: 30px;
+    background-color: var(--secondary);
+}
+
+/* Mozlia */
+
+
+
+.newsandnotification .title {
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--primary);
+}
+
+.newsandnotification .news__items {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 10px 0px 0px;
+
+}
+
+.newsandnotification .news__items .news__item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 15px;
+
+}
+
+.newsandnotification .news__items .news__item:last-child{
+    border-bottom: none;
+
+}
+
+
+.news__item__image img {
+    margin-right: 15px;
+    width: 85px;
+    height: 50px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.news__item__info .news__item__title {
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--primary);
+}
+
+.news__item__info .newd__item__datetime {
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--secondary);
+    margin-top: 3px;
+}

@@ -1,0 +1,65 @@
+.exploresection {
+    padding: 40px 50px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid var(--lightgray);
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #FFF5E4; */
+    /* margin-bottom: 40px; */
+}
+
+.exploresection .exploresection__left{
+    display: flex;
+}
+
+.exploresection .exploresection__left img{
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+}
+
+.exploresection__info .exploresection__info__title{
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    /* line-height: 33px; */
+    color: var(--primary);
+    margin-bottom: 3px;
+
+}
+
+.exploresection__info .exploresection__info__subtitle{
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--secondary);
+}
+
+
+/* Button Section right section */
+
+.exploresection__right .exploresection__right__button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--lightgray);
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.exploresection__right .exploresection__right__button__icon{
+    font-size: 16px;
+    color: var(--secondary);
+}
+

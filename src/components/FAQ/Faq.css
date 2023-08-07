@@ -1,0 +1,93 @@
+.faq__component {
+    margin-bottom: 40px;
+}
+
+
+.faq__component .accordion__item + .accordion__item{
+    border-top: none !important;
+}
+
+
+.faq__component .accordion__button {
+    padding: 20px 20px 20px 30px !important;
+    background-color: #fff !important;
+    border: 1px solid var(--lightgray) !important;
+    box-sizing: border-box !important;
+    border-radius: 4px !important;
+    margin-bottom: 20px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    width: 100% !important;
+    flex-direction: row-reverse;
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--primary);
+
+
+    
+
+}
+
+.faq__component .accordion__button[aria-expanded="true"] {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom: none !important;
+    padding-bottom: 0px;
+    padding: 20px 20px 0px 30px !important;
+    padding-bottom: 15px !important;
+    margin-bottom: -5px !important;
+    /* justify-content: flex-end !important; */
+}
+/* 
+
+.accordion__button[aria-expanded="true"]::before{
+    display: none;
+
+} */
+
+.faq__component .accordion__button[aria-expanded="true"]::before{
+    height: 5px !important;
+    width: 5px !important;
+}
+
+.faq__component .accordion__button:before{
+    height: 5px !important;
+    width: 5px !important;
+    color: var(--primary) !important;
+}
+
+
+
+.faq__component .accordion__panel {
+    border: 1px solid var(--lightgray) !important;
+    margin-bottom: 20px;
+    border-top: none !important;
+    padding: 0px 30px 20px 30px !important;
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--secondary);
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+
+}
+
+
+.faq__component .faq__accordian .accordion {
+    width: calc(100% - 335px) !important;
+    border: none;
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .faq__component .faq__accordian .accordion {
+        width: 100% !important;
+    }
+  }

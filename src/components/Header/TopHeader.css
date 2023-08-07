@@ -1,0 +1,165 @@
+.topheader{
+    height: 72px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+    color: #fff;
+    font-family: var(--primaryfont);
+    
+}
+
+
+.topheader.active{
+    /* background-color: var(--primary); */
+    /* background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    color: #fff;
+    box-shadow: 5px 3px 15px rgba(57, 63, 72, 0.3);
+}
+
+.topheader.active .topheader__navs{
+    visibility: visible !important;
+}
+
+.topheader.active .logo__name{
+    color: #fff;
+}
+
+.topheader .topheader__logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.topheader__logo .logo__name{
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+
+.top__header__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    
+}
+
+.top__header__container .topheader__navs{
+    display: flex;
+    gap: 40px;
+    visibility: hidden !important;
+    transition: visibility 200ms ease-in;
+    
+}
+
+.topheader__navs .topheader__nav{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    
+    
+}
+
+.topheader__navs .topheader__nav.active{
+    
+    border-bottom: 3px solid #fff;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+
+
+    
+    
+}
+
+.top__header__container .topheader__auth{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.topheader__auth > .listyouurself__btn, .login__register__btn, .offers__btn{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    padding-bottom: 2px;
+
+
+}
+
+.topheader__auth .listyouurself__btn{
+    /* border: 1px solid var(--green); */
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: linear-gradient(180.25deg,var(--green) 10.32%,rgba(79, 133, 164, 0.902) 140% 140%) !important;
+
+
+
+
+
+
+}
+
+.topheader__auth .offers__btn{
+    /* padding: 10px 10px; */
+    display: flex;
+    
+    align-items: center;
+
+}
+
+
+.topheader__auth .offers__btn .offers__btn__icon{
+    margin-right: 10px;
+    height: 100%;
+    width: 35px;
+    
+}
+
+.offers__btn__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.offers__btn__sub__text{
+    font-size: 12px
+}
+
+.topheader__auth .login__register__btn{
+    border: 1px solid var(--bordercolor);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    
+
+}
+
+.location__detect__btn{
+    border: 1px solid var(--bordercolor);
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+

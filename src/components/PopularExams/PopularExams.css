@@ -1,0 +1,100 @@
+.popularexams{
+    margin-bottom: 40px;
+}
+
+.rc-tabs {
+    border: 1px solid var(--lightgray) !important;
+    border-radius: 4px !important;
+    
+}
+
+.rc-tabs-tab {
+    padding: 15px 15px;
+    font-family: var(--primaryfont) !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    color: var(--secondary) !important;
+    text-transform: capitalize;
+}
+
+/* .rc-tabs-tab:nth-child(12) {
+    color: red !important;
+    margin-right: 20px;
+} */
+
+
+.rc-tabs-nav-wrap{
+    border-bottom: 1px solid var(--lightgray) !important;
+    /* padding: 20px 0px 0px !important; */
+    padding: 0px 10px;
+
+
+}
+
+.rc-tabs-tab.rc-tabs-tab-active {
+    color: var(--primary) !important;
+}
+
+.rc-tabs-ink-bar {
+    height: 5px !important;
+    background: var(--green) !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.rc-tabs-content {
+    padding: 25px;
+}
+
+.rc-tabs-nav-more{
+    display: none !important;
+}
+
+
+.popularexam__tab{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.rc-tabs-nav-wrap::after, .rc-tabs-nav-wrap::before{
+    display: none !important;
+
+}
+
+
+/* RC TABS START */
+
+/* .rc-tabs {
+    border: none !important;
+}
+
+.rc-tabs-tab {
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.rc-tabs-tab .rc-tabs-tab-btn {
+    font-weight: normal;
+}
+
+.rc-tabs-tab.rc-tabs-tab-active {
+    background: ececec;
+    color: #00a6f8;
+}
+
+.rc-tabs-ink-bar {
+    background: #59c7fd !important;
+}
+
+.rc-tabs-content-holder {
+    padding: 10px;
+    background: #ececec;
+} */
+
+
+
+/* RC TABS STOP */

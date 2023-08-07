@@ -1,0 +1,22 @@
+.componentheader{
+    margin-bottom: 20px;
+}
+.componentheader h1{
+    font-family: var(--primaryfont);
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 24px !important;
+    line-height: 33px;
+    font-style: normal;
+
+}
+
+.component__subheader{
+    font-family: var(--primaryfont);
+    font-weight: 600;
+    color: var(--secondary);
+    line-height: 19px;
+    font-size: 14px;
+    margin-top: 4px;
+    font-style: normal;
+}

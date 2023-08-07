@@ -1,0 +1,64 @@
+.citiescard {
+    padding: 15px;
+    border: 1px solid var(--lightgray);
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.citiescard .citiescard__left{
+    display: flex;
+    align-items: center;
+}
+
+.citiescard .citiescard__left img{
+    width: 60px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.citiescard__info__title{
+
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--primary);
+    margin-bottom: 2px;
+}
+
+.citiescard__info__desc{
+
+    font-family: var(--primaryfont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: var(--secondary);
+}
+
+
+/* Button Section right section */
+
+.citiescard__right .citiescard__button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--lightgray);
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.citiescard__right .citiescard__button__icon{
+    font-size: 12px;
+    color: var(--secondary);
+}

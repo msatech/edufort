@@ -1,0 +1,9 @@
+
+.apptext p{
+    font-family: var(--primaryfont);
+    font-weight: 600;
+    color: var(--secondary);
+    line-height: 19px;
+    font-size: 14px;
+    font-style: normal;
+}

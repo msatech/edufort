@@ -1,0 +1,10 @@
+.section__divider{
+    height: 35px  ;
+    min-width: 1px;
+    /* background-color: #fff; */
+    border-right: 2px dotted rgb(172, 172, 172);
+    
+    padding-top: auto;
+    padding-bottom: auto;
+
+}

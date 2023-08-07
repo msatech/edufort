@@ -1,0 +1,38 @@
+/* trending Searches */
+.trendingsearches{
+   width: 100%;
+   margin-bottom: 40px;
+}
+
+.trendingsearches__elements{
+    display: flex;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Trending searches elements */
+.trendingsearches__element{
+    display: flex;
+    align-items: center;
+    padding: 9px 15px;
+    border-radius: 20px;
+    border:1px solid var(--bordercolor);
+    color: var(--secondary);
+    
+
+}
+
+.trendingsearches__element p{
+    font-size: 14px;
+    font-family: var(--primaryfont);
+    font-weight: 600;
+    line-height: var(--lineheight);
+
+}
+
+.trending__icon{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
